@@ -90,6 +90,10 @@ footer{
   background-color: #EFEFEF;
   /* border: 1px solid black; */
 }
+.footer-wrap{
+  width: 1280px;
+  margin: 0 auto;
+}
 .footer-info{
   height: 50px;
   padding: 0 20px;
@@ -116,6 +120,7 @@ footer{
   height: 130px;
   margin: 10px 40px;
   margin-bottom: 0;
+  font-size: 13px;
 }
 .footer-sup-detail>a{
   text-decoration: none;
