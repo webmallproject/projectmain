@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="../css/page_template.css">
+  <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
   <header>
     <div class="header-wrap">
-      <a class="mainlogo" href="#">
+      <a class="mainlogo" href="../../main/html/main_page.html">
         <img  src="../../headerimg/mainlogo.png" alt="">
       </a>
       <div class="header-wrap-btns">
@@ -38,7 +38,44 @@
     </div>
   </nav>
   <main>
+    <!-- 로그인 제목 wrap -->
+    <div class="login-title-wrap">
+      <h1>로그인</h1>
+    </div>
+    <!-- 아이디 wrap / wrap 안에 아이디 제목 wrap과 입력칸 구분 -->
+    <div class="login-id-wrap">
+      <div class="login-id-title-wrap">
+        <div class="login-id-title-id">아이디</div>
+        <div class="login-id-title-ask"><a href="#">아이디를 잊었다면?</a></div>
+      </div>
+      <div class="login-id-input-wrap">
+        <input type="text" placeholder="ID">
+      </div>
+    </div>
+    <!-- 비밀번호 wrap / 아이디와 동일하게 -->
+    <div class="login-pw-wrap">
+      <div class="login-pw-title-wrap">
+        <div class="login-pw-title-pw">비밀번호</div>
+        <div class="login-pw-title-ask"><a href="#">비밀번호를 잊었다면?</a></div>
+      </div>
+      <div class="login-pw-input-wrap">
+        <input type="password" placeholder="Password">
+      </div>
+    </div>
+    <!-- 로그인 버튼 wrap -->
+    <div class="login-loginbtn-wrap">
+      <!-- 추후 버튼에 js 적용 -->
+      <button>로그인</button>
+    </div>
+    <!-- 계정이 없다면? wrap -->
+    <div class="login-askid-wrap">
 
+    </div>
+    <!-- 간편 로그인/회원가입 wrap 안에 간편 로그인/회원가입 버튼 -->
+    <div class="login-askidbtn-wrap">
+
+    </div>
+    <!-- 홈 버튼은 position:absolute로 -->
   </main>
   <footer>
     <div class="footer-wrap">
