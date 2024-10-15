@@ -4,19 +4,202 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>쇼핑몰 사이트</title>
+  <link rel="stylesheet" href="../css/main_page.css">
 </head>
 <body>
   <header>
-
+    <div class="header-wrap">
+      <a class="mainlogo" href="../../main/html/main_page.html">
+        <img  src="../img/mainlogo.png" alt="">
+      </a>
+      <div class="header-wrap-btns">
+        <div class="header-wrap-cart">
+          <a href="#">
+            <img class="cartlogo" src="../img/free-icon-add-to-cart-4357328.png" alt="">
+          </a>
+        </div>
+        <a class="header-wrap-login" href="../../login_register/html/login.html">
+            로그인/회원가입
+        </a>
+      </div>
+    </div>
   </header>
   <nav>
-
+    <div class="nav-wrap">
+      <ul>
+        <li class="nav-wrap-menu"><a href="#">정장</a></li>
+        <li class="nav-wrap-menu"><a href="#">팬츠</a></li>
+        <li class="nav-wrap-menu"><a href="#">재킷</a></li>
+        <li class="nav-wrap-menu"><a href="#">니트</a></li>
+        <li class="nav-wrap-menu"><a href="#">슈즈</a></li>
+        <li class="nav-wrap-menu"><a href="#">언더웨어</a></li>
+        <li class="nav-wrap-menu"><a href="#">액세서리</a></li>
+      </ul>
+    </div>
   </nav>
   <main>
-
+    <div class="main-event-wrap">
+      <div class="main-event">
+        <div class="main-event-title-wrap">
+          <div class="main-event-title">
+            <h1>이벤트</h1>
+          </div>
+          <!-- 이벤트 페이지로 연결하는 버튼 -->
+          <button onclick="location.href='#'" class="main-event-morebtn">
+            더보기
+          </button>
+        </div>
+        <div class="main-event-list-wrap">
+          <ul class="main-event-list">
+            <li class="main-event-banner">
+              <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+              <div class="main-event-detail">
+                첫 구매 할인 이벤트
+                <br>
+                2024.10.14 ~
+              </div>
+            </li>
+            <li class="main-event-banner">
+              <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+              <div class="main-event-detail">
+                오픈 기념 이벤트
+                <br>
+                2024.10.14 ~ 2024.10.31
+              </div>
+            </li>
+            <li class="main-event-banner">
+              <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+              <div class="main-event-detail">
+                가을 이벤트
+                <br>
+                2024.10.14 ~ 2024.11.30
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main-blank"></div>
+    <div class="main-best-wrap">
+      <div class="main-best">
+        <div class="main-best-title">
+          <h1>인기 상품</h1>
+        </div>
+        <div class="main-best-list-wrap">
+          <ul class="main-best-list">
+            <li class="main-best-banner">
+              <ul class="main-best-list-inner">
+                <li class="main-best-banner-inner">
+                  1. 상품명 (97,000)
+                  <br>
+                  <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+                </li>
+                <li class="main-best-banner-inner">
+                  2. 상품명 (93,000)
+                  <br>
+                  <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+                </li>
+                <li class="main-best-banner-inner">
+                  3. 상품명 (95,000)
+                  <br>
+                  <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+                </li>
+                <li class="main-best-banner-inner">
+                  4. 상품명 (97,000)
+                  <br>
+                  <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+                </li>
+              </ul>
+            </li>
+            <li class="main-best-banner">
+              <ul class="main-best-list-inner">
+                <li class="main-best-banner-inner">
+                  5. 상품명 (87,000)
+                  <br>
+                  <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+                </li>
+                <li class="main-best-banner-inner">
+                  6. 상품명 (88,000)
+                  <br>
+                  <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+                </li>
+                <li class="main-best-banner-inner">
+                  7. 상품명 (80,000)
+                  <br>
+                  <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+                </li>
+                <li class="main-best-banner-inner">
+                  8. 상품명 (81,000)
+                  <br>
+                  <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main-blank"></div>
+    <div class="main-reco-wrap">
+      <div class="main-reco">
+        <div class="main-reco-title">
+          <h1>추천 상품</h1>
+        </div>
+        <div class="main-reco-list-wrap">
+          <h2>선선한 가을에 어울리는</h2>
+          <ul class="main-reco-list">
+            <li class="main-reco-banner">
+              <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+            </li>
+            <li class="main-reco-banner">
+              <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+            </li>
+            <li class="main-reco-banner">
+              <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+            </li>
+            <li class="main-reco-banner">
+              <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+            </li>
+          </ul>
+          <h2>집에서 편하게</h2>
+          <ul class="main-reco-list">
+            <li class="main-reco-banner">
+              <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+            </li>
+            <li class="main-reco-banner">
+              <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+            </li>
+            <li class="main-reco-banner">
+              <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+            </li>
+            <li class="main-reco-banner">
+              <img onclick="location.href='#'" src="../img/eventboximg.jpg" alt="">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main-blank"></div>
   </main>
   <footer>
-    
+    <div class="footer-wrap">
+    <div class="footer-info">
+      <ul class="footer-info-list">
+        <li><a href="#">회사소개</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+    </div>
+    <div class="footer-sup">
+      <div class="footer-sup-detail">
+        출처
+        <br>     
+        <a href="https://www.flaticon.com/kr/free-icons/-" title="장바구니에 추가 아이콘">
+        장바구니에 추가 아이콘 제작자: surang - Flaticon
+        </a>
+      </div>
+    </div>
+  </div>
   </footer>
 </body>
 </html>

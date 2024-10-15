@@ -79,132 +79,78 @@ nav {
   color: black;
 }
 main {
-  height: 2638px;
-  /* background-color: beige; */
+  /* 페이지에 맞게 수정해야함 */
+  height: 1133px;
+  background-color: rgb(236, 236, 236);
   width: 1280px;
   /* 가운데 정렬 */
   margin: 0 auto;
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
 }
-.main-event-wrap{
-  height: 400px;
+.login-title-wrap, .login-title-wrap>h1{
+  height: 183px;
   /* border: 1px solid black; */
-}
-/* 메인 파트별 동일 설정 */
-.main-event, .main-best, .main-reco{
-  display: flex;
-  flex-direction: column;
-}
-.main-event>div{
-  display: flex;
-  /* border: 1px solid black; */
-}
-.main-event-title-wrap{
-  height: 83px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-.main-event-title h1{
-  display: flex;
-  align-items: center;
-}
-.main-event-morebtn{
-  position: absolute;
-  height: 41px;
-  width: 95px;
-  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
-  right: 94px;
-  top: 21px;
-  border-radius: 8px;
 }
-.main-event-list-wrap{
-  height: 317px;
-}
-.main-event-list{
-  list-style: none;
-  text-align: center;
-  width: 1280px;
-}
-.main-event-banner{
-  display: inline-block;
-  /* border: 1px solid black; */
-  height: 260px;
-  margin: 30px;
-}
-.main-event-banner>img{
+.login-id-wrap, .login-pw-wrap{
   height: 180px;
-  width: 300px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
 }
-.main-event-detail{
-  margin-top: 10px;
-}
-.main-blank{
+.login-id-title-wrap, .login-pw-title-wrap{
   height: 80px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  padding:0 390px;
+}
+.login-id-title-id, .login-id-title-ask,
+.login-pw-title-pw, .login-pw-title-ask{
+  display: flex;
+  align-items: center;
+}
+.login-id-title-ask a, .login-pw-title-ask a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.login-id-input-wrap, .login-pw-input-wrap{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* border: 1px solid black; */
 }
-.main-best-wrap{
-  height: 980px;
-  border-top: 1px solid black;
+.login-id-input-wrap input, .login-pw-input-wrap input{
+  width: 500px;
+  height: 70px;
+  border-radius: 30px;
 }
-/* 인기 상품, 추천 상품 제목 */
-.main-best-title, .main-best-title>h1, .main-reco-title, .main-reco-title>h1{
-  height: 90px;
+.login-loginbtn-wrap{
+  height: 120px;
+  /* border: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.main-best-list-wrap{
-  height: 890px;
+.login-loginbtn-wrap button{
+  height: 70px;
+  width: 500px;
+  background-color: black;
+  color: white;
 }
-.main-best-list{
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  justify-content: center;
-  align-items: center;
-}
-.main-best-banner-inner{
-  margin: 10px 20px;
-}
-.main-best-banner-inner img, .main-reco-banner img{
-  height: 360px;
-  width: 250px;
+.login-askid-wrap{
+  height: 106px;
   border: 1px solid black;
 }
-.main-best-list-inner{
-  display: flex;
-  list-style: none;
-}
-.main-reco-wrap{
-  height: 1017px;
-  /* border: 1px solid black; */
-  border-top: 1px solid black;
-}
-.main-reco-list-wrap{
-  height: 927px;
-  /* border: 1px solid black; */
-  display: flex;
-  flex-direction: column;
-}
-.main-reco-list-wrap h2{
-  display: flex;
-  align-items: center;
-  padding-left: 70px;
-}
-.main-reco-list{
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-.main-reco-banner{
-  margin: 0 20px;
+.login-askidbtn-wrap{
+  height: 202px;
+  border: 1px solid black;
 }
 footer{
   height: 200px;
