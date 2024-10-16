@@ -80,96 +80,58 @@ nav {
 }
 main {
   /* 페이지에 맞게 수정해야함 */
-  height: 971px;
-  background-color: rgb(236, 236, 236);
+  height: 1500px;
+  background-color: beige;
   width: 1280px;
   /* 가운데 정렬 */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
-.login-title-wrap, .login-title-wrap>h1{
+.regi-title-wrap, .regi-title-wrap>h1{
   height: 183px;
   /* border: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.login-id-wrap, .login-pw-wrap{
-  height: 180px;
-  /* border: 1px solid black; */
+.regi-id-wrap, .regi-pw-wrap, .regi-pwcheck-wrap{
   display: flex;
   flex-direction: column;
-}
-.login-id-title-wrap, .login-pw-title-wrap{
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  /* border: 1px solid black; */
-  padding:0 390px;
-}
-.login-id-title-id, .login-id-title-ask,
-.login-pw-title-pw, .login-pw-title-ask{
-  display: flex;
-  align-items: center;
-}
-.login-id-title-ask a, .login-pw-title-ask a{
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: black;
-}
-.login-id-input-wrap, .login-pw-input-wrap{
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* border: 1px solid black; */
-}
-.login-id-input-wrap input, .login-pw-input-wrap input{
-  width: 500px;
-  height: 70px;
-  border-radius: 30px;
-}
-.login-loginbtn-wrap{
   height: 120px;
-  /* border: 1px solid black; */
+  padding: 5px 390px;
+}
+.regi-id-title, .regi-pw-title, .regi-pwcheck-title{
+  height: 40px;
+  margin-bottom: 5px;
+}
+.regi-id-input, .regi-pw-input, .regi-pwcheck-input{
+  height: 40px;
+  margin-bottom: 10px;
+}
+.regi-id-wrap>span, .regi-pwcheck-wrap>span{
+  height: 20px;
+  margin-bottom: 5px;
+}
+.regi-email-wrap{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  padding: 5px 390px;
+  height: 150px;
 }
-.login-loginbtn-wrap button{
-  height: 70px;
-  width: 500px;
-  background-color: black;
-  color: white;
+.regi-email-title{
+  height: 40px;
+  margin-bottom: 5px;
 }
-.login-askid-wrap, .login-askid{
-  height: 106px;
-  /* border: 1px solid black; */
+.regi-email-input, .regi-email-code-input{
+  height: 40px;
+  margin-bottom: 10px;
+}
+.regi-address-wrap{
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.login-askidbtn-wrap{
-  height: 202px;
-  /* border: 1px solid black; */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 390px;
-}
-.login-askidbtn-kakao img{
-  height: 70px;
-  width: 200px;
-}
-.login-askidbtn-register button{
-  height: 70px;
-  width: 200px;
-  background-color: skyblue;
-  color: white;
-  border: 0px;
-  border-radius: 5px;
+  flex-direction: column;
+  padding: 5px 390px;
+  height: 200px;
 }
 footer{
   height: 200px;
